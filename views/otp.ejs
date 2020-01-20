@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OTP</title>
+</head>
+<body>
+	<form method="POST" action="/verify">
+		<label>Mobile</label>
+		<input type="number" name="mobile" value="<%= mobile %>">
+		<label>OTP</label>
+		<input type="password" name="otp">
+		<button>Verify</button>
+	</form>
+</body>
+</html>
